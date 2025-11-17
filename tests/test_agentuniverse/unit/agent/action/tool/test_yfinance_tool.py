@@ -1,6 +1,7 @@
 import unittest
+import os
 from agentuniverse.agent.action.tool.tool import ToolInput
-from agentuniverse.agent.action.tool.common_tool.yfinance_tool import YahooFinanceTool, SearchMode  
+from agentuniverse.agent.action.tool.common_tool.yfinance_tool import YahooFinanceTool, SearchMode 
 
 class YahooFinanceToolTest(unittest.TestCase):
     """
